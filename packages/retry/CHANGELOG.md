@@ -1,5 +1,14 @@
 # @thinice/retry
 
+## 0.1.2
+
+### Patch Changes
+
+- link to source code in monorepo
+- Updated dependencies
+  - @thinice/sleep-ms@0.1.2
+  - @thinice/to-string@0.1.1
+
 ## 0.1.1
 
 ### Patch Changes

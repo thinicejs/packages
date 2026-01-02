@@ -1,6 +1,6 @@
 {
   "name": "@thinice/flatten-shallow",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Flattens an array one level deep",
   "license": "MIT",
   "sideEffects": false,

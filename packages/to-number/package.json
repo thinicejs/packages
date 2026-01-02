@@ -1,6 +1,6 @@
 {
   "name": "@thinice/to-number",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Converts values to numbers (null/undefined → 0, true → 1, false → 0, else Number(x))",
   "license": "MIT",
   "sideEffects": false,

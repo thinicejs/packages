@@ -1,5 +1,11 @@
 # @thinice/once-async
 
+## 0.1.2
+
+### Patch Changes
+
+- link to source code in monorepo
+
 ## 0.1.1
 
 ### Patch Changes

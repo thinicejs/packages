@@ -1,6 +1,6 @@
 {
   "name": "@thinice/has-own",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "hasOwnProperty wrapper that handles null prototypes correctly",
   "license": "MIT",
   "sideEffects": false,

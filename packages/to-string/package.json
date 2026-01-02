@@ -1,6 +1,6 @@
 {
   "name": "@thinice/to-string",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Converts values to strings (null → \"\", undefined → \"\", else String(x))",
   "license": "MIT",
   "sideEffects": false,

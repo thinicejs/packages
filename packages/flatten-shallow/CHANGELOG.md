@@ -1,5 +1,13 @@
 # @thinice/flatten-shallow
 
+## 0.1.2
+
+### Patch Changes
+
+- link to source code in monorepo
+- Updated dependencies
+  - @thinice/is-array@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes

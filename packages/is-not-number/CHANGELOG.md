@@ -1,5 +1,13 @@
 # @thinice/is-not-number
 
+## 0.1.2
+
+### Patch Changes
+
+- link to source code in monorepo
+- Updated dependencies
+  - @thinice/is-number@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes

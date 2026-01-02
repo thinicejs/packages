@@ -1,6 +1,6 @@
 {
   "name": "@thinice/retry",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Retries an async function N times with optional delay",
   "license": "MIT",
   "sideEffects": false,

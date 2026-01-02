@@ -1,6 +1,6 @@
 {
   "name": "@thinice/is-not-nullish",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Type guard to check if a value is NOT nullish (not null and not undefined)",
   "license": "MIT",
   "sideEffects": false,
