@@ -1,6 +1,6 @@
 {
   "name": "@thinice/first-truthy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Returns the first truthy value in an array",
   "license": "MIT",
   "sideEffects": false,

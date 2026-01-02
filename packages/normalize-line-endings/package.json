@@ -1,6 +1,6 @@
 {
   "name": "@thinice/normalize-line-endings",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Converts CRLF ↔ LF line endings",
   "license": "MIT",
   "sideEffects": false,

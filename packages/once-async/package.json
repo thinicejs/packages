@@ -1,6 +1,6 @@
 {
   "name": "@thinice/once-async",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Ensures an async function only runs once",
   "license": "MIT",
   "sideEffects": false,

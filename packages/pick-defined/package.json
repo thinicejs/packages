@@ -1,6 +1,6 @@
 {
   "name": "@thinice/pick-defined",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Drops keys with undefined values from an object",
   "license": "MIT",
   "sideEffects": false,

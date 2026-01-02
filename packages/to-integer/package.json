@@ -1,6 +1,6 @@
 {
   "name": "@thinice/to-integer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Converts values to integers (truncates decimals)",
   "license": "MIT",
   "sideEffects": false,

@@ -1,6 +1,6 @@
 {
   "name": "@thinice/omit-nullish",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Removes null and undefined, keeps falsy values",
   "license": "MIT",
   "sideEffects": false,

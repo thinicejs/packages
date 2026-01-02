@@ -1,6 +1,6 @@
 {
   "name": "@thinice/shallow-clone",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shallow clone using spread operator, safer for old targets",
   "license": "MIT",
   "sideEffects": false,

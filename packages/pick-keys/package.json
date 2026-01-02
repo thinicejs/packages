@@ -1,6 +1,6 @@
 {
   "name": "@thinice/pick-keys",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Picks specific keys from an object",
   "license": "MIT",
   "sideEffects": false,

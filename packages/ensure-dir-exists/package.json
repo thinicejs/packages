@@ -1,6 +1,6 @@
 {
   "name": "@thinice/ensure-dir-exists",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Creates a directory if missing (no recursion drama)",
   "license": "MIT",
   "sideEffects": false,

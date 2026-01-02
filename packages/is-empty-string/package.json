@@ -1,6 +1,6 @@
 {
   "name": "@thinice/is-empty-string",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Checks if a string is empty (str === \"\")",
   "license": "MIT",
   "sideEffects": false,

@@ -1,6 +1,6 @@
 {
   "name": "@thinice/to-float",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Converts values to floats (parseFloat behavior)",
   "license": "MIT",
   "sideEffects": false,

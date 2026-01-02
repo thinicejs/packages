@@ -1,6 +1,6 @@
 {
   "name": "@thinice/ensure-trailing-newline",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds \\n at EOF if missing",
   "license": "MIT",
   "sideEffects": false,
