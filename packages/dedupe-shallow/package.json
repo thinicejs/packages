@@ -1,6 +1,6 @@
 {
   "name": "@thinice/dedupe-shallow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Removes duplicates using Set (no deep equality)",
   "license": "MIT",
   "sideEffects": false,

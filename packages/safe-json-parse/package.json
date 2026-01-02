@@ -1,6 +1,6 @@
 {
   "name": "@thinice/safe-json-parse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSON.parse that returns undefined on failure",
   "license": "MIT",
   "sideEffects": false,

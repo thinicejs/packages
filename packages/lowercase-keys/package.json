@@ -1,6 +1,6 @@
 {
   "name": "@thinice/lowercase-keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lowercases object keys (no recursion, no opinions)",
   "license": "MIT",
   "sideEffects": false,

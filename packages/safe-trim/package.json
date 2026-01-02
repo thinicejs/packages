@@ -1,6 +1,6 @@
 {
   "name": "@thinice/safe-trim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trims only if input is a string, otherwise returns input",
   "license": "MIT",
   "sideEffects": false,

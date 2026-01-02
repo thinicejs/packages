@@ -1,6 +1,6 @@
 {
   "name": "@thinice/is-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Distinguishes Node vs browser vs edge-ish runtime",
   "license": "MIT",
   "sideEffects": false,
