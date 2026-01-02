@@ -15,3 +15,6 @@ import { isCi } from "@thinice/is-ci";
 
 isCi(); // true if running in CI (GitHub Actions, GitLab CI, etc.)
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-ci

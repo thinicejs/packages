@@ -17,3 +17,6 @@ envFlag("DEBUG");              // true if DEBUG is set and not "0"/"false"
 envFlag("DEBUG", false);       // false if DEBUG is unset
 envFlag("ENABLED", true);      // true if ENABLED is unset
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/env-flag

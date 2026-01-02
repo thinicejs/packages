@@ -17,3 +17,6 @@ safeJsonParse('{"a": 1}');     // { a: 1 }
 safeJsonParse("invalid");       // undefined
 safeJsonParse("");             // undefined
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/safe-json-parse

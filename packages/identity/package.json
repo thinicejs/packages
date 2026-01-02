@@ -36,5 +36,6 @@
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3"
-  }
+  },
+  "homepage": "https://github.com/thinicejs/utils/tree/main/packages/identity"
 }

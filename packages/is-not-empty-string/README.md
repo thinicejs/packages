@@ -21,3 +21,6 @@ if (isNotEmptyString(value)) {
   // value is Exclude<string, "">
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-not-empty-string

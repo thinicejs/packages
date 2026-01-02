@@ -16,3 +16,6 @@ import { ensureTrailingNewline } from "@thinice/ensure-trailing-newline";
 ensureTrailingNewline("hello");     // "hello\n"
 ensureTrailingNewline("hello\n");   // "hello\n"
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/ensure-trailing-newline

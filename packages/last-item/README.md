@@ -17,3 +17,6 @@ lastItem([1, 2, 3]); // 3
 lastItem(["a", "b"]); // "b"
 lastItem([]); // undefined
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/last-item

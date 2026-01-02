@@ -21,3 +21,6 @@ if (isNotBoolean(value)) {
   // value is Exclude<unknown, boolean>
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-not-boolean

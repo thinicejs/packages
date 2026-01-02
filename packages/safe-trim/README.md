@@ -17,3 +17,6 @@ safeTrim("  hello  ");  // "hello"
 safeTrim(42);          // 42
 safeTrim(null);        // null
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/safe-trim

@@ -21,3 +21,6 @@ if (isEmptyString(value)) {
   // value is "" here
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-empty-string

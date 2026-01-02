@@ -28,3 +28,6 @@ isNullish(""); // false
 isNullish(0); // false
 isNullish(false); // false
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-nullish

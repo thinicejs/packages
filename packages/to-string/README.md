@@ -19,3 +19,6 @@ toString(123); // "123"
 toString(true); // "true"
 toString({}); // "[object Object]"
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/to-string

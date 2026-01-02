@@ -16,3 +16,6 @@ import { sleepMs } from "@thinice/sleep-ms";
 await sleepMs(1000); // Wait 1 second
 await sleepMs(500);  // Wait 500ms
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/sleep-ms

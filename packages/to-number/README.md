@@ -21,3 +21,6 @@ toNumber("123"); // 123
 toNumber("123.45"); // 123.45
 toNumber(""); // 0
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/to-number

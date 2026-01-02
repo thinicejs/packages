@@ -22,3 +22,6 @@ if (isNumber(value)) {
   // value is number here
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-number

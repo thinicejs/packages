@@ -25,3 +25,6 @@ isString("hello"); // true
 isString(42); // false
 isString(null); // false
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-string

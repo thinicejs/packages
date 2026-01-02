@@ -16,3 +16,6 @@ import { pickDefined } from "@thinice/pick-defined";
 pickDefined({ a: 1, b: undefined, c: 3 }); // { a: 1, c: 3 }
 pickDefined({ x: undefined, y: 2 });       // { y: 2 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/pick-defined

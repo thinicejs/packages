@@ -19,3 +19,6 @@ toFloat(123.45); // 123.45
 toFloat("123abc"); // 123 (parseFloat behavior)
 toFloat(null); // NaN
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/to-float

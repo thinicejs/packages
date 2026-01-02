@@ -18,3 +18,6 @@ clamp(15, 0, 10); // 10
 clamp(-5, 0, 10); // 0
 clamp(7.5, 0, 10); // 7.5
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/clamp

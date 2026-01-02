@@ -19,3 +19,6 @@ await retry(async () => {
 
 await retry(fetchData, { attempts: 5 }); // No delay
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/retry

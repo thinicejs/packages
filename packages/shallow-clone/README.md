@@ -17,3 +17,6 @@ shallowClone({ a: 1, b: 2 });  // { a: 1, b: 2 } (new object)
 shallowClone([1, 2, 3]);       // [1, 2, 3] (new array)
 shallowClone(42);              // 42 (primitives unchanged)
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/shallow-clone

@@ -21,3 +21,6 @@ if (isNonEmptyArray(value)) {
   // value is T[] with length > 0
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-non-empty-array

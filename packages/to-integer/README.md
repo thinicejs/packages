@@ -19,3 +19,6 @@ toInteger(-123.45); // -123
 toInteger("123.45"); // 123
 toInteger(null); // 0
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/to-integer

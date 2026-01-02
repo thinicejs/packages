@@ -17,3 +17,6 @@ firstTruthy([0, "", null, "foo"]); // "foo"
 firstTruthy([false, true, false]); // true
 firstTruthy([0, "", null]); // undefined
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/first-truthy

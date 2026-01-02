@@ -21,3 +21,6 @@ if (isNotNumber(value)) {
   // value is Exclude<unknown, number>
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-not-number

@@ -17,3 +17,6 @@ identity(42); // 42
 identity("foo"); // "foo"
 identity({ a: 1 }); // { a: 1 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/identity

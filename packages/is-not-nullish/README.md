@@ -22,3 +22,6 @@ if (isNotNullish(value)) {
   // value is T (not null | undefined)
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-not-nullish

@@ -20,3 +20,6 @@ flattenShallow([
 ]); // [1, 2, 3, 4]
 flattenShallow([1, 2, 3]); // [1, 2, 3]
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/flatten-shallow

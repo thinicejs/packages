@@ -15,3 +15,6 @@ import { isNode } from "@thinice/is-node";
 
 isNode(); // true in Node.js, false in browser
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-node

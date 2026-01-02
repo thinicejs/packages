@@ -22,3 +22,6 @@ if (isBoolean(value)) {
   // value is boolean here
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-boolean

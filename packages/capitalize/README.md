@@ -19,3 +19,6 @@ capitalize(""); // ""
 capitalize("a"); // "A"
 capitalize("Hello"); // "Hello" (already capitalized)
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/capitalize

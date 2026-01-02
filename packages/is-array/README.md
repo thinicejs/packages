@@ -21,3 +21,6 @@ if (isArray(value)) {
   // value is T[] here
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-array

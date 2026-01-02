@@ -21,3 +21,6 @@ if (isNotArray(value)) {
   // value is Exclude<unknown, T[]>
 }
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/is-not-array

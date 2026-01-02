@@ -18,3 +18,6 @@ await withTimeout(promise, 5000); // Throws if > 5s
 
 await withTimeout(promise, 5000, new Error("Custom timeout")); // Custom error
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/with-timeout

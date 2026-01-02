@@ -24,6 +24,7 @@
     "url": "https://github.com/thinicejs/utils.git",
     "directory": "packages/capitalize"
   },
+  "homepage": "https://github.com/thinicejs/utils/tree/main/packages/capitalize",
   "publishConfig": {
     "access": "public"
   },

@@ -22,3 +22,6 @@ const nullProto = Object.create(null);
 nullProto.foo = "bar";
 hasOwn(nullProto, "foo"); // true
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/has-own

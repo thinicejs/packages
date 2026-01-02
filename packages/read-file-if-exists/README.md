@@ -16,3 +16,6 @@ import { readFileIfExists } from "@thinice/read-file-if-exists";
 const content = await readFileIfExists("./config.json"); // string | undefined
 const data = await readFileIfExists("./data.txt", "utf8");
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/read-file-if-exists

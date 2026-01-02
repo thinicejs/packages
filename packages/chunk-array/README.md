@@ -22,3 +22,6 @@ chunkArray([1, 2, 3], 1); // [[1], [2], [3]]
 chunkArray([1, 2, 3], 0); // []
 chunkArray([1, 2, 3], -1); // []
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/chunk-array

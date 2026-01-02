@@ -17,3 +17,6 @@ dedupeShallow([1, 2, 2, 3]); // [1, 2, 3]
 dedupeShallow(["a", "b", "a"]); // ["a", "b"]
 dedupeShallow([1, 2, 3]); // [1, 2, 3]
 ```
+
+## Source
+https://github.com/thinicejs/utils/tree/main/packages/dedupe-shallow
