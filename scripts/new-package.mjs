@@ -50,6 +50,11 @@ fs.writeFileSync(
         },
       },
       files: ["dist", "README.md"],
+      repository: {
+        type: "git",
+        url: "https://github.com/thinicejs/utils.git",
+        directory: `packages/${name}`,
+      },
       publishConfig: {
         access: "public",
       },
@@ -69,10 +74,7 @@ fs.writeFileSync(
   ) + "\n"
 );
 
-fs.writeFileSync(
-  path.join(dir, "README.md"),
-  `# ${scope}/${name}\n`
-);
+fs.writeFileSync(path.join(dir, "README.md"), `# ${scope}/${name}\n`);
 
 fs.writeFileSync(
   path.join(dir, "tsconfig.json"),
