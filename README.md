@@ -1,4 +1,4 @@
-# @thinice/packages
+# @thinice/utils
 
 Small TypeScript utilities. You shouldn't depend on these, but you might anyway.
 
