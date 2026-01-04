@@ -1,11 +1,9 @@
-import { isNullish } from "@thinice/is-nullish";
-
 /**
  * Reads process.env.FLAG and coerces to boolean.
  */
 export function envFlag(name: string, defaultValue = false): boolean {
   const value = process.env[name];
-  if (isNullish(value)) {
+  if (value == null) {
     return defaultValue;
   }
   if (value === "" || value === "0" || value.toLowerCase() === "false") {

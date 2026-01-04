@@ -94,22 +94,6 @@ importers:
         version: 5.9.3
 
   packages/env-flag:
-    dependencies:
-      '@thinice/is-nullish':
-        specifier: workspace:*
-        version: link:../is-nullish
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/first-truthy:
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -122,58 +106,6 @@ importers:
         version: 5.9.3
 
   packages/flatten-shallow:
-    dependencies:
-      '@thinice/is-array':
-        specifier: workspace:*
-        version: link:../is-array
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/has-own:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/identity:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-array:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-boolean:
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -186,18 +118,6 @@ importers:
         version: 5.9.3
 
   packages/is-ci:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-empty-string:
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -222,34 +142,6 @@ importers:
         version: 5.9.3
 
   packages/is-non-empty-array:
-    dependencies:
-      '@thinice/is-array':
-        specifier: workspace:*
-        version: link:../is-array
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-not-array:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-not-boolean:
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -273,103 +165,7 @@ importers:
         specifier: ^5.6.3
         version: 5.9.3
 
-  packages/is-not-nullish:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-not-number:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-not-string:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-nullish:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-number:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/is-string:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/last-item:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
   packages/lowercase-keys:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/noop-promise:
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -505,18 +301,6 @@ importers:
         specifier: ^5.6.3
         version: 5.9.3
 
-  packages/shallow-clone:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
   packages/sleep-ms:
     devDependencies:
       tsup:
@@ -530,54 +314,6 @@ importers:
         version: 5.9.3
 
   packages/stable-object-keys:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/to-float:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/to-integer:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/to-number:
-    devDependencies:
-      tsup:
-        specifier: ^8.3.5
-        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
-      tsx:
-        specifier: ^4.19.2
-        version: 4.21.0
-      typescript:
-        specifier: ^5.6.3
-        version: 5.9.3
-
-  packages/to-string:
     devDependencies:
       tsup:
         specifier: ^8.3.5

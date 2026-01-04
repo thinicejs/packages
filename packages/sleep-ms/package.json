@@ -1,6 +1,6 @@
 {
   "name": "@thinice/sleep-ms",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "await sleep(123) — everyone writes this",
   "license": "MIT",
   "sideEffects": false,

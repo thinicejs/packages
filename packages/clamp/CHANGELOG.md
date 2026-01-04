@@ -1,5 +1,11 @@
 # @thinice/clamp
 
+## 0.1.4
+
+### Patch Changes
+
+- fix bugs, remove dependencies, improve docs
+
 ## 0.1.3
 
 ### Patch Changes

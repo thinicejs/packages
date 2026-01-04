@@ -1,5 +1,11 @@
 # @thinice/omit-keys
 
+## 0.1.3
+
+### Patch Changes
+
+- fix bugs, remove dependencies, improve docs
+
 ## 0.1.2
 
 ### Patch Changes
