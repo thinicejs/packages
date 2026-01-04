@@ -1,6 +1,6 @@
 {
   "name": "@thinice/retry",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Retries an async function N times with optional delay",
   "license": "MIT",
   "sideEffects": false,
@@ -33,8 +33,7 @@
     "lint": "node -e \"process.exit(0)\""
   },
   "dependencies": {
-    "@thinice/sleep-ms": "workspace:*",
-    "@thinice/to-string": "workspace:*"
+    "@thinice/sleep-ms": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.3.5",

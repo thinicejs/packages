@@ -1,5 +1,13 @@
 # @thinice/is-non-empty-array
 
+## 0.1.3
+
+### Patch Changes
+
+- fix return type to `[T, ...T[]]`
+- Updated dependencies
+  - @thinice/is-array@0.1.3
+
 ## 0.1.2
 
 ### Patch Changes

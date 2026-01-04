@@ -1,6 +1,6 @@
 # @thinice/to-number
 
-Converts values to numbers (null/undefined → 0, true → 1, false → 0, else Number(x)).
+Converts values to numbers (null/undefined → 0, else Number(x)).
 
 ## Installation
 

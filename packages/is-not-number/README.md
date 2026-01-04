@@ -13,12 +13,15 @@ npm install @thinice/is-not-number
 ```typescript
 import { isNotNumber } from "@thinice/is-not-number";
 
-isNotNumber("foo");       // true
-isNotNumber(null);        // true
-isNotNumber(42);         // false
+isNotNumber("foo"); // true
+isNotNumber(null); // true
+isNotNumber(NaN); // true (NaN is not a valid number)
+isNotNumber(42); // false
 
+// Useful for narrowing union types
+const value: string | number = getData();
 if (isNotNumber(value)) {
-  // value is Exclude<unknown, number>
+  value; // string (number excluded)
 }
 ```
 

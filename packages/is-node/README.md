@@ -1,6 +1,6 @@
 # @thinice/is-node
 
-Distinguishes Node vs browser vs edge-ish runtime.
+Detects if running in Node.js (checks `process.versions.node`).
 
 ## Installation
 
@@ -13,7 +13,11 @@ npm install @thinice/is-node
 ```typescript
 import { isNode } from "@thinice/is-node";
 
-isNode(); // true in Node.js, false in browser
+if (isNode()) {
+  // Node.js or Bun
+} else {
+  // Browser, Deno, Cloudflare Workers, etc.
+}
 ```
 
 ## Source

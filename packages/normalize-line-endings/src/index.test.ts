@@ -24,3 +24,8 @@ test("normalizeLineEndings handles mixed line endings", () => {
 test("normalizeLineEndings handles empty string", () => {
   assert.strictEqual(normalizeLineEndings(""), "");
 });
+
+test("normalizeLineEndings handles lone CR (classic Mac)", () => {
+  assert.strictEqual(normalizeLineEndings("hello\rworld", "lf"), "hello\nworld");
+  assert.strictEqual(normalizeLineEndings("hello\rworld", "crlf"), "hello\r\nworld");
+});

@@ -1,5 +1,11 @@
 # @thinice/is-not-array
 
+## 0.1.3
+
+### Patch Changes
+
+- fix type narrowing with `Exclude<T, X>`
+
 ## 0.1.2
 
 ### Patch Changes

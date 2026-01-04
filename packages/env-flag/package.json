@@ -1,6 +1,6 @@
 {
   "name": "@thinice/env-flag",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Reads process.env.FLAG and coerces to boolean",
   "license": "MIT",
   "sideEffects": false,

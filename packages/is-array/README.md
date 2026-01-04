@@ -13,12 +13,17 @@ npm install @thinice/is-array
 ```typescript
 import { isArray } from "@thinice/is-array";
 
-isArray([1, 2, 3]);     // true
-isArray([]);            // true
-isArray("not array");   // false
+isArray([1, 2, 3]); // true
+isArray([]); // true
+isArray("not array"); // false
 
 if (isArray(value)) {
-  // value is T[] here
+  // value is unknown[] here
+}
+
+// With type assertion (element types are NOT validated at runtime)
+if (isArray<string>(value)) {
+  // value is string[] here - use only when you know the element type
 }
 ```
 

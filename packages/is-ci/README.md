@@ -1,6 +1,6 @@
 # @thinice/is-ci
 
-Checks common CI environment variables.
+Detects if running in a CI environment.
 
 ## Installation
 
@@ -13,8 +13,14 @@ npm install @thinice/is-ci
 ```typescript
 import { isCi } from "@thinice/is-ci";
 
-isCi(); // true if running in CI (GitHub Actions, GitLab CI, etc.)
+if (isCi()) {
+  // Running in CI
+}
 ```
+
+## Supported CI Systems
+
+Detects: GitHub Actions, GitLab CI, CircleCI, Jenkins, Travis CI, AppVeyor, TeamCity, and any system setting `CI` or `CONTINUOUS_INTEGRATION`.
 
 ## Source
 https://github.com/thinicejs/utils/tree/main/packages/is-ci

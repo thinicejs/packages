@@ -1,8 +1,6 @@
-import { isNumber } from "@thinice/is-number";
-
 /**
- * Type guard to check if a value is NOT a number.
+ * Type guard to check if a value is NOT a number (NaN is considered not a number).
  */
-export function isNotNumber(value: unknown): value is Exclude<unknown, number> {
-  return !isNumber(value);
+export function isNotNumber<T>(value: T): value is Exclude<T, number> {
+  return typeof value !== "number" || Number.isNaN(value);
 }

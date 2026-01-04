@@ -1,5 +1,11 @@
 # @thinice/has-own
 
+## 0.1.2
+
+### Patch Changes
+
+- improve readme
+
 ## 0.1.1
 
 ### Patch Changes

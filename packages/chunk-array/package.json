@@ -1,6 +1,6 @@
 {
   "name": "@thinice/chunk-array",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Splits arrays into chunks of N (no generators)",
   "license": "MIT",
   "sideEffects": false,

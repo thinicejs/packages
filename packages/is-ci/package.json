@@ -1,6 +1,6 @@
 {
   "name": "@thinice/is-ci",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Checks common CI environment variables",
   "license": "MIT",
   "sideEffects": false,

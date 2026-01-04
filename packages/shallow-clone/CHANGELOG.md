@@ -1,5 +1,11 @@
 # @thinice/shallow-clone
 
+## 0.1.3
+
+### Patch Changes
+
+- remove unnecessary dependencies
+
 ## 0.1.2
 
 ### Patch Changes

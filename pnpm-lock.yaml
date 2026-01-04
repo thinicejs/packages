@@ -22,10 +22,6 @@ importers:
         version: 5.9.3
 
   packages/capitalize:
-    dependencies:
-      '@thinice/is-empty-string':
-        specifier: workspace:*
-        version: link:../is-empty-string
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -242,10 +238,6 @@ importers:
         version: 5.9.3
 
   packages/is-not-array:
-    dependencies:
-      '@thinice/is-array':
-        specifier: workspace:*
-        version: link:../is-array
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -258,10 +250,6 @@ importers:
         version: 5.9.3
 
   packages/is-not-boolean:
-    dependencies:
-      '@thinice/is-boolean':
-        specifier: workspace:*
-        version: link:../is-boolean
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -274,10 +262,6 @@ importers:
         version: 5.9.3
 
   packages/is-not-empty-string:
-    dependencies:
-      '@thinice/is-empty-string':
-        specifier: workspace:*
-        version: link:../is-empty-string
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -290,10 +274,6 @@ importers:
         version: 5.9.3
 
   packages/is-not-nullish:
-    dependencies:
-      '@thinice/is-nullish':
-        specifier: workspace:*
-        version: link:../is-nullish
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -306,10 +286,6 @@ importers:
         version: 5.9.3
 
   packages/is-not-number:
-    dependencies:
-      '@thinice/is-number':
-        specifier: workspace:*
-        version: link:../is-number
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -322,10 +298,6 @@ importers:
         version: 5.9.3
 
   packages/is-not-string:
-    dependencies:
-      '@thinice/is-string':
-        specifier: workspace:*
-        version: link:../is-string
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -434,10 +406,6 @@ importers:
         version: 5.9.3
 
   packages/omit-nullish:
-    dependencies:
-      '@thinice/is-nullish':
-        specifier: workspace:*
-        version: link:../is-nullish
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -502,9 +470,6 @@ importers:
       '@thinice/sleep-ms':
         specifier: workspace:*
         version: link:../sleep-ms
-      '@thinice/to-string':
-        specifier: workspace:*
-        version: link:../to-string
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -529,10 +494,6 @@ importers:
         version: 5.9.3
 
   packages/safe-trim:
-    dependencies:
-      '@thinice/is-string':
-        specifier: workspace:*
-        version: link:../is-string
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -545,10 +506,6 @@ importers:
         version: 5.9.3
 
   packages/shallow-clone:
-    dependencies:
-      '@thinice/is-array':
-        specifier: workspace:*
-        version: link:../is-array
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -585,13 +542,6 @@ importers:
         version: 5.9.3
 
   packages/to-float:
-    dependencies:
-      '@thinice/is-nullish':
-        specifier: workspace:*
-        version: link:../is-nullish
-      '@thinice/to-string':
-        specifier: workspace:*
-        version: link:../to-string
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -604,10 +554,6 @@ importers:
         version: 5.9.3
 
   packages/to-integer:
-    dependencies:
-      '@thinice/to-number':
-        specifier: workspace:*
-        version: link:../to-number
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -620,10 +566,6 @@ importers:
         version: 5.9.3
 
   packages/to-number:
-    dependencies:
-      '@thinice/is-nullish':
-        specifier: workspace:*
-        version: link:../is-nullish
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -636,10 +578,6 @@ importers:
         version: 5.9.3
 
   packages/to-string:
-    dependencies:
-      '@thinice/is-nullish':
-        specifier: workspace:*
-        version: link:../is-nullish
     devDependencies:
       tsup:
         specifier: ^8.3.5

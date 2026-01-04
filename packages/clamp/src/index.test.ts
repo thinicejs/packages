@@ -33,3 +33,17 @@ test("clamp handles decimal values", () => {
   assert.strictEqual(clamp(6.28, 0, 5), 5);
   assert.strictEqual(clamp(-1.5, 0, 5), 0);
 });
+
+test("clamp throws when any argument is NaN", () => {
+  assert.throws(() => clamp(NaN, 0, 10), /clamp arguments must not be NaN/);
+  assert.throws(() => clamp(5, NaN, 10), /clamp arguments must not be NaN/);
+  assert.throws(() => clamp(5, 0, NaN), /clamp arguments must not be NaN/);
+});
+
+test("clamp handles Infinity", () => {
+  assert.strictEqual(clamp(5, -Infinity, Infinity), 5);
+  assert.strictEqual(clamp(Infinity, 0, 10), 10);
+  assert.strictEqual(clamp(-Infinity, 0, 10), 0);
+  assert.strictEqual(clamp(5, 0, Infinity), 5);
+  assert.strictEqual(clamp(5, -Infinity, 10), 5);
+});

@@ -13,12 +13,14 @@ npm install @thinice/is-not-string
 ```typescript
 import { isNotString } from "@thinice/is-not-string";
 
-isNotString(42);          // true
-isNotString(null);        // true
-isNotString("foo");       // false
+isNotString(42); // true
+isNotString(null); // true
+isNotString("foo"); // false
 
+// Useful for narrowing union types
+const value: string | number = getData();
 if (isNotString(value)) {
-  // value is Exclude<unknown, string>
+  value; // number (string excluded)
 }
 ```
 

@@ -31,11 +31,20 @@ test("readFileIfExists handles custom encoding", async () => {
   const tempDir = await mkdtemp(join(tmpdir(), "read-file-test-"));
   const filePath = join(tempDir, "test.txt");
   const content = "hello world";
-  
+
   await writeFile(filePath, content);
   const result = await readFileIfExists(filePath, "utf8");
-  
+
   assert.strictEqual(result, content);
-  
+
   await unlink(filePath);
+});
+
+test("readFileIfExists throws on directory (EISDIR)", async () => {
+  const tempDir = await mkdtemp(join(tmpdir(), "read-file-test-"));
+
+  await assert.rejects(
+    () => readFileIfExists(tempDir),
+    (error: NodeJS.ErrnoException) => error.code === "EISDIR"
+  );
 });

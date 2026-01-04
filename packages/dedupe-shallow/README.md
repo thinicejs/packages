@@ -1,6 +1,6 @@
 # @thinice/dedupe-shallow
 
-Removes duplicates using Set (no deep equality).
+Removes duplicates using Set (reference equality, no deep comparison).
 
 ## Installation
 
@@ -15,7 +15,14 @@ import { dedupeShallow } from "@thinice/dedupe-shallow";
 
 dedupeShallow([1, 2, 2, 3]); // [1, 2, 3]
 dedupeShallow(["a", "b", "a"]); // ["a", "b"]
-dedupeShallow([1, 2, 3]); // [1, 2, 3]
+dedupeShallow([3, 1, 2, 1, 3]); // [3, 1, 2] (preserves order)
+```
+
+Objects are compared by reference, not value:
+
+```typescript
+const obj = { a: 1 };
+dedupeShallow([obj, obj, { a: 1 }]); // [obj, { a: 1 }] (2 items, not 1)
 ```
 
 ## Source

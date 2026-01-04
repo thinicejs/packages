@@ -13,9 +13,13 @@ npm install @thinice/safe-json-parse
 ```typescript
 import { safeJsonParse } from "@thinice/safe-json-parse";
 
-safeJsonParse('{"a": 1}');     // { a: 1 }
+safeJsonParse('{"a": 1}');      // { a: 1 }
 safeJsonParse("invalid");       // undefined
-safeJsonParse("");             // undefined
+safeJsonParse("");              // undefined
+safeJsonParse("null");          // null (valid JSON)
+
+// With type parameter (cast, not validated)
+const data = safeJsonParse<{ id: number }>('{"id": 123}');
 ```
 
 ## Source

@@ -14,11 +14,8 @@ npm install @thinice/flatten-shallow
 import { flattenShallow } from "@thinice/flatten-shallow";
 
 flattenShallow([1, [2, 3], 4]); // [1, 2, 3, 4]
-flattenShallow([
-  [1, 2],
-  [3, 4],
-]); // [1, 2, 3, 4]
-flattenShallow([1, 2, 3]); // [1, 2, 3]
+flattenShallow([[1, 2], [3, 4]]); // [1, 2, 3, 4]
+flattenShallow([[1, [2, 3]], [4]]); // [1, [2, 3], 4] (only one level)
 ```
 
 ## Source

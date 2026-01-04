@@ -15,7 +15,12 @@ import { identity } from "@thinice/identity";
 
 identity(42); // 42
 identity("foo"); // "foo"
-identity({ a: 1 }); // { a: 1 }
+
+// Useful for filtering falsy values
+[1, 2, null, 3, 0, ""].filter(identity); // [1, 2, 3]
+
+// Default transform function
+const transform = options.transform ?? identity;
 ```
 
 ## Source

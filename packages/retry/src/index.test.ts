@@ -73,8 +73,17 @@ test("retry uses default attempts", async () => {
     }
     return "success";
   };
-  
+
   const result = await retry(fn);
   assert.strictEqual(result, "success");
   assert.strictEqual(callCount, 3);
+});
+
+test("retry throws on invalid attempts", async () => {
+  const fn = async () => "success";
+
+  await assert.rejects(() => retry(fn, { attempts: 0 }), /attempts must be a positive integer/);
+  await assert.rejects(() => retry(fn, { attempts: -1 }), /attempts must be a positive integer/);
+  await assert.rejects(() => retry(fn, { attempts: 1.5 }), /attempts must be a positive integer/);
+  await assert.rejects(() => retry(fn, { attempts: NaN }), /attempts must be a positive integer/);
 });

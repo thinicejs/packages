@@ -1,6 +1,6 @@
 # @thinice/last-item
 
-Returns the last item in an array (with bounds check).
+Returns the last item in an array. Equivalent to `arr.at(-1)` (ES2022) for older environments.
 
 ## Installation
 

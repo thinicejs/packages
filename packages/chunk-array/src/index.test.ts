@@ -27,3 +27,16 @@ test("chunkArray returns empty array for size <= 0", () => {
   assert.deepStrictEqual(chunkArray([1, 2, 3], 0), []);
   assert.deepStrictEqual(chunkArray([1, 2, 3], -1), []);
 });
+
+test("chunkArray handles NaN", () => {
+  assert.deepStrictEqual(chunkArray([1, 2, 3], NaN), []);
+});
+
+test("chunkArray floors non-integer sizes", () => {
+  assert.deepStrictEqual(chunkArray([1, 2, 3, 4, 5], 2.5), [[1, 2], [3, 4], [5]]);
+  assert.deepStrictEqual(chunkArray([1, 2, 3, 4, 5], 2.9), [[1, 2], [3, 4], [5]]);
+});
+
+test("chunkArray handles Infinity", () => {
+  assert.deepStrictEqual(chunkArray([1, 2, 3], Infinity), [[1, 2, 3]]);
+});

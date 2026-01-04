@@ -1,6 +1,6 @@
 # @thinice/is-not-empty-string
 
-Type guard to check if a value is NOT an empty string.
+Type guard to check if a value is a non-empty string.
 
 ## Installation
 
@@ -13,12 +13,14 @@ npm install @thinice/is-not-empty-string
 ```typescript
 import { isNotEmptyString } from "@thinice/is-not-empty-string";
 
-isNotEmptyString("foo");  // true
-isNotEmptyString(" ");    // true
-isNotEmptyString("");     // false
+isNotEmptyString("foo"); // true
+isNotEmptyString(" "); // true (whitespace is not empty)
+isNotEmptyString(""); // false
+isNotEmptyString(null); // false (not a string)
+isNotEmptyString(42); // false (not a string)
 
 if (isNotEmptyString(value)) {
-  // value is Exclude<string, "">
+  value.toUpperCase(); // value is string
 }
 ```
 

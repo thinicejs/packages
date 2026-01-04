@@ -18,8 +18,10 @@ const fetchData = onceAsync(async () => {
 });
 
 await fetchData(); // Calls fetch
-await fetchData(); // Returns same promise, doesn't call fetch again
+await fetchData(); // Returns cached promise
 ```
+
+Note: Arguments on subsequent calls are ignored - the first call's result is always returned.
 
 ## Source
 https://github.com/thinicejs/utils/tree/main/packages/once-async

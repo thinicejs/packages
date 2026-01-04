@@ -12,11 +12,11 @@ test("isNotEmptyString returns true for non-empty strings", () => {
   assert.strictEqual(isNotEmptyString("hello"), true);
 });
 
-test("isNotEmptyString returns true for non-strings", () => {
-  assert.strictEqual(isNotEmptyString(null), true);
-  assert.strictEqual(isNotEmptyString(undefined), true);
-  assert.strictEqual(isNotEmptyString(0), true);
-  assert.strictEqual(isNotEmptyString([]), true);
+test("isNotEmptyString returns false for non-strings", () => {
+  assert.strictEqual(isNotEmptyString(null), false);
+  assert.strictEqual(isNotEmptyString(undefined), false);
+  assert.strictEqual(isNotEmptyString(0), false);
+  assert.strictEqual(isNotEmptyString([]), false);
 });
 
 test("isNotEmptyString narrows type", () => {

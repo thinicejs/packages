@@ -1,6 +1,6 @@
 # @thinice/has-own
 
-hasOwnProperty wrapper that handles null prototypes correctly.
+Safe `hasOwnProperty` check that handles null prototypes. Equivalent to `Object.hasOwn()` (ES2022) for older environments.
 
 ## Installation
 

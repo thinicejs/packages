@@ -13,12 +13,14 @@ npm install @thinice/is-not-boolean
 ```typescript
 import { isNotBoolean } from "@thinice/is-not-boolean";
 
-isNotBoolean(42);         // true
-isNotBoolean("foo");      // true
-isNotBoolean(true);       // false
+isNotBoolean(42); // true
+isNotBoolean("foo"); // true
+isNotBoolean(true); // false
 
+// Useful for narrowing union types
+const value: string | boolean = getData();
 if (isNotBoolean(value)) {
-  // value is Exclude<unknown, boolean>
+  value; // string (boolean excluded)
 }
 ```
 

@@ -1,10 +1,8 @@
-import { isNullish } from "@thinice/is-nullish";
-
 /**
- * Converts values to strings (null → "", undefined → "", else String(x)).
+ * Converts values to strings (null/undefined → "", else String(x)).
  */
 export function toString(value: unknown): string {
-  if (isNullish(value)) {
+  if (value == null) {
     return "";
   }
   return String(value);

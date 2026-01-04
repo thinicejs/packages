@@ -1,5 +1,11 @@
 # @thinice/is-not-empty-string
 
+## 0.1.3
+
+### Patch Changes
+
+- fix returning true for non-strings
+
 ## 0.1.2
 
 ### Patch Changes

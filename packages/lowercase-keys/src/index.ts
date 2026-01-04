@@ -1,8 +1,8 @@
 /**
- * Lowercases object keys (no recursion, no opinions).
+ * Lowercases object keys (shallow, no recursion).
  */
-export function lowercaseKeys<T extends Record<string, unknown>>(obj: T): Record<string, unknown> {
-  const result: Record<string, unknown> = {};
+export function lowercaseKeys<V>(obj: Record<string, V>): Record<string, V> {
+  const result: Record<string, V> = {};
   for (const [key, value] of Object.entries(obj)) {
     result[key.toLowerCase()] = value;
   }

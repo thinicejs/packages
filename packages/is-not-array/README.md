@@ -13,12 +13,14 @@ npm install @thinice/is-not-array
 ```typescript
 import { isNotArray } from "@thinice/is-not-array";
 
-isNotArray("foo");        // true
-isNotArray(42);           // true
-isNotArray([1, 2]);       // false
+isNotArray("foo"); // true
+isNotArray(42); // true
+isNotArray([1, 2]); // false
 
+// Useful for narrowing union types
+const value: string | string[] = getData();
 if (isNotArray(value)) {
-  // value is Exclude<unknown, T[]>
+  value; // string (array excluded)
 }
 ```
 

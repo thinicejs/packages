@@ -21,6 +21,8 @@ chunkArray([], 2); // []
 chunkArray([1, 2, 3], 1); // [[1], [2], [3]]
 chunkArray([1, 2, 3], 0); // []
 chunkArray([1, 2, 3], -1); // []
+chunkArray([1, 2, 3, 4, 5], 2.5); // [[1, 2], [3, 4], [5]] (floored to 2)
+chunkArray([1, 2, 3], NaN); // []
 ```
 
 ## Source

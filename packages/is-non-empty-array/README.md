@@ -13,14 +13,16 @@ npm install @thinice/is-non-empty-array
 ```typescript
 import { isNonEmptyArray } from "@thinice/is-non-empty-array";
 
-isNonEmptyArray([1, 2]);  // true
-isNonEmptyArray([]);      // false
-isNonEmptyArray("foo");   // false
+isNonEmptyArray([1, 2]); // true
+isNonEmptyArray([]); // false
+isNonEmptyArray("foo"); // false
 
-if (isNonEmptyArray(value)) {
-  // value is T[] with length > 0
+if (isNonEmptyArray<number>(value)) {
+  value[0]; // number - guaranteed to exist
 }
 ```
+
+Note: Element types are NOT validated at runtime (same as `is-array`).
 
 ## Source
 https://github.com/thinicejs/utils/tree/main/packages/is-non-empty-array

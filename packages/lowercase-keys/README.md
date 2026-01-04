@@ -15,6 +15,9 @@ import { lowercaseKeys } from "@thinice/lowercase-keys";
 
 lowercaseKeys({ Foo: 1, Bar: 2 }); // { foo: 1, bar: 2 }
 lowercaseKeys({ HELLO: "world" }); // { hello: "world" }
+
+// Shallow - nested keys unchanged
+lowercaseKeys({ Outer: { Inner: 1 } }); // { outer: { Inner: 1 } }
 ```
 
 ## Source

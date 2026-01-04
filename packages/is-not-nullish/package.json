@@ -1,6 +1,6 @@
 {
   "name": "@thinice/is-not-nullish",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Type guard to check if a value is NOT nullish (not null and not undefined)",
   "license": "MIT",
   "sideEffects": false,
@@ -31,9 +31,6 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "test": "node --import tsx --test src/index.test.ts",
     "lint": "node -e \"process.exit(0)\""
-  },
-  "dependencies": {
-    "@thinice/is-nullish": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.3.5",

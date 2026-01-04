@@ -1,5 +1,11 @@
 # @thinice/chunk-array
 
+## 0.1.3
+
+### Patch Changes
+
+- fix edge cases and error handling
+
 ## 0.1.2
 
 ### Patch Changes

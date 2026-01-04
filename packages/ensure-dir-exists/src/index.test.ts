@@ -18,9 +18,20 @@ test("ensureDirExists creates directory if missing", async () => {
 
 test("ensureDirExists does nothing if directory exists", async () => {
   const tempDir = await mkdtemp(join(tmpdir(), "ensure-dir-test-"));
-  
+
   await ensureDirExists(tempDir);
   await ensureDirExists(tempDir); // Should not throw
-  
+
+  await rm(tempDir, { recursive: true, force: true });
+});
+
+test("ensureDirExists creates nested directories", async () => {
+  const tempDir = await mkdtemp(join(tmpdir(), "ensure-dir-test-"));
+  const nestedDir = join(tempDir, "a", "b", "c");
+
+  await ensureDirExists(nestedDir);
+
+  await access(nestedDir); // Should not throw
+
   await rm(tempDir, { recursive: true, force: true });
 });

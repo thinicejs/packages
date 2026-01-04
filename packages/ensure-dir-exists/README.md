@@ -1,6 +1,6 @@
 # @thinice/ensure-dir-exists
 
-Creates a directory if missing (no recursion drama).
+Creates a directory if missing (creates parent directories as needed).
 
 ## Installation
 
@@ -14,6 +14,7 @@ npm install @thinice/ensure-dir-exists
 import { ensureDirExists } from "@thinice/ensure-dir-exists";
 
 await ensureDirExists("./logs"); // Creates if missing, no-op if exists
+await ensureDirExists("./a/b/c"); // Creates nested directories
 ```
 
 ## Source
