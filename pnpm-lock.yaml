@@ -57,6 +57,18 @@ importers:
         specifier: ^5.6.3
         version: 5.9.3
 
+  packages/debounce:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
   packages/dedupe-shallow:
     devDependencies:
       tsup:
@@ -106,6 +118,30 @@ importers:
         version: 5.9.3
 
   packages/flatten-shallow:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/group-by:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/invariant:
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -313,7 +349,31 @@ importers:
         specifier: ^5.6.3
         version: 5.9.3
 
+  packages/sort-by:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
   packages/stable-object-keys:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/throttle:
     devDependencies:
       tsup:
         specifier: ^8.3.5
